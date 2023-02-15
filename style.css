@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+*{
+font-family: 'Times New Roman', Times, serif;
+
+
+}
 header{
 background-color: black;
 padding: 12px 1px 12px 1px;
@@ -22,5 +27,72 @@ text-decoration: none;
 body{
 margin: 0px;
 
+
+}
+
+
+#section1{
+background-color: white;
+padding: 90px 0px 90px 9px;
+
+
+}
+
+#section2{
+background-image: url(../004-projeto-cordel/conteúdo/imagens/background001.jpg);
+background-size: cover;
+padding: 90px 0px 90px 9px;
+color: white;
+
+}
+
+.fundo{
+background: rgba(0, 0, 0, 0.185);
+padding: 10px 10px 10px 10px;
+display: inline-block;
+
+}
+
+#section4 > p{
+background-color: rgba(0, 0, 0, 0.39);
+
+}
+
+#section3{
+    padding: 90px 0px 90px 9px;
+
+}
+
+#section4{
+    padding: 90px 0px 90px 9px;
+background-image: url(conteúdo/imagens/background002.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+}
+
+
+#section5{
+    padding: 90px 0px 90px 9px;
+
+
+}
+#section1,#section2,#section3,#section4,#section5{
+font-size: 18px;
+
+}
+
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 1px;
+
+}
+
+footer > p > a{
+color: white;
+text-decoration: none;
+font-weight: bolder;
 
 }
