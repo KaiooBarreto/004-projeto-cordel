@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+header{
+background-color: black;
+padding: 12px 1px 12px 1px;
+
+}
+
+h1{
+color: white;
+font: bold italic 3em sans-serif;
+text-align: center;
+}
+
+#autor  > a, #autor{
+color: white;
+font: normal normal 1.1em sans-serif;
+text-align: center;
+text-decoration: none;
+}
+
+body{
+margin: 0px;
+
+
+}
